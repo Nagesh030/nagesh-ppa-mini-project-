@@ -1,0 +1,48 @@
+
+#include <stdio.h>
+int main()
+
+{
+int a;
+int cancel;
+int book;
+printf("Dear User,\n");
+printf("Greetings of the day!\n\n");
+printf("Welcome to online ticket booking System\n\n");
+printf("Please Choose an Option: \n");
+printf("Press 1 - If you want to book a ticket\n");
+printf("Press 2 - If you want to cancel a ticket\n");
+scanf("%d",&a);
+
+switch (a)
+{
+case 1:
+printf("for which movie would u book ticket for:\n");
+printf("Enter 1 to book tickets for thor:love and thunder\n");
+printf("Enter 2 to book tickets for the greatest showman\n");
+printf("Enter 3 to book tickes for wrong turn : the foundation\n");
+printf("Enter 4 to book tickets for avatar 2\n");
+printf("Enter 5 to book tickets for mortal kombat\n");
+printf("Enter 6 to book tickets for dont breathe 2\n");
+scanf("%d", &book);
+printf("Dear User,\n");
+printf("The following movie ticket has been booked \n the ticket would be sent on your registered mobile number... \n Thank you");
+break;
+
+case 2:
+printf("Please Choose an Option:...\n");
+printf("Enter 1 to cancel the ticket\n");
+scanf("%d",&cancel);
+
+switch(cancel){
+case 1:
+printf("The following Books have been Returned by you\n Thank You for Coming.");
+break;
+case 2: printf("the following ticket has been canceled ...thank you :)");
+break;
+    
+}
+
+}
+return 0;
+}
